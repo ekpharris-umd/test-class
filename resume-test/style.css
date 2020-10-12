@@ -6,23 +6,33 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size:3em;
   color: #33485e;
   text-transform: uppercase;
 }
 
 
-.menu li{
-  margin:0px;
-  padding: 0px;
-  text-align: center;
-  display: inline;
-  list-style-type: none;
-}
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+  }
+
+.menu li {
+    display: inline;
+  }
 
 #container {
-  width: 100%;
-  max-width: 1200px;
-  margin:0 auto;
-  padding-bottom: 50px;
-}
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin:0 auto;
+    margin-bottom: 30px;
+  }
