@@ -1,12 +1,28 @@
 body {
-  font-family:Open Sans, Arial, san-serif;
-  font-size:1em;
-  color:#444;
-  font-weight:400;
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 1em;
+  color: #808080;
+  font-weight: 400;
 }
 
 h1 {
-  font-size:3em;
+  font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
+}
+
+
+.menu li{
+  margin:0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
+  list-style-type: none;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 50px;
 }
