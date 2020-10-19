@@ -38,9 +38,10 @@ p {
 
 .image-headline {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 1.8em;
   text-align: center;
   margin-top: 30px;
+  font-family: arial, serif;
 }
 
 .image-intro {
@@ -49,5 +50,34 @@ p {
   width: 600px;
   margin: 0 auto;
   margin-top: 10px;
+}
 
+blockquote {
+  font-size: 1.5em;
+  font-weight: 900;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: arial; san-serif;
+}
+
+#related-links{
+  line-height: 1.6;
+  text-align: center;
+}
+
+#related-links li{
+  text-align: center;
+  list-style: none;
+}
+
+#footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  margin: 50px;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  font-size: 1.2em;
 }
